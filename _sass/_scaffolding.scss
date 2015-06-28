@@ -23,6 +23,7 @@ section {
   a {
     color: $link-color;
     text-decoration: underline;
+    @include transition(all $link-transition-duration $link-transition-curve);
   }
   a:hover, a:focus {
     color: $link-hover-color;

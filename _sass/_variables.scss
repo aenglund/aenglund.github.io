@@ -18,6 +18,8 @@ $font-color-base:                             $gray-base;
 $link-color:                                  $brand_green;
 $link-hover-color:                            $white;
 $link-hover-background-color:                 $brand_green;
+$link-transition-duration:                    0.15s;
+$link-transition-curve:                       ease-out;
 
 // Scaffolding
 $body-background:                             $gray-base;
