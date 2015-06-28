@@ -6,7 +6,7 @@ description: "I am an iOS-developer employeed at Tactel in Malmö, Sweden. Gradu
 baseurl: ""
 url: "http://aenglund.github.io"
 paginate: 5
-paginate_path: ":num"
+paginate_path: "/page/:num/"
 
 # Social
 rss: "/feed.xml"
