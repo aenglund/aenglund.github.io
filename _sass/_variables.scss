@@ -3,23 +3,29 @@
 // ---
 
 // Colors
-$white:                   #ffffff;
-$gray-base:               #262626;
+$white:                                       #ffffff;
+$gray-base:                                   #262626;
 
-$brand-green:             #44a340;
+$brand-green:                                 #44a340;
 
 // Typography
-$font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-family-serif:       Palatino, Georgia, Times, serif;
-$font-family-monospace:   Monaco, Menlo, Consolas, "Courier New", monospace;
-$font-family-base:        $font-family-serif;
-$font-color-base:         $gray-base;
+$font-family-sans-serif:                      "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-serif:                           Palatino, Georgia, Times, serif;
+$font-family-monospace:                       Monaco, Menlo, Consolas, "Courier New", monospace;
+$font-family-base:                            $font-family-serif;
+$font-color-base:                             $gray-base;
+
+$link-color:                                  $brand_green;
+$link-hover-color:                            $white;
+$link-hover-background-color:                 $brand_green;
 
 // Scaffolding
-$body-background:         $gray-base;
+$body-background:                             $gray-base;
 
-$content-max-width:       820px;
+$content-max-width:                           820px;
 
-$article-font-size:       21px;
-$article-line-height:     32px;
+$article-font-size:                           21px;
+$article-line-height:                         32px;
+$article-heading-link-color:                  $font-color-base;
+$article-heading-link-hover-color:            $link-color;
 

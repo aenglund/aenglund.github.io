@@ -3,7 +3,7 @@
 // ---
 
 body {
-  background-color: $body-background;
+  background: $body-background;
   border-top: 6px solid $brand-green;
 
   font-family: $font-family-base;
@@ -19,14 +19,43 @@ main {
 section {
   background-color: $white;
   padding: 25px 0;
+
+  a {
+    color: $link-color;
+    text-decoration: underline;
+  }
+  a:hover, a:focus {
+    color: $link-hover-color;
+    background: $link-hover-background-color;
+  }
 }
 
 article {
   font-size: $article-font-size;
   line-height: $article-line-height;
-}
 
-h1, h2, h3, h4, h5, h6 {
+  header {
+    text-align: center;
+
+    h1, h2, h3, h4, h5, h6 {
+      a {
+        color: $article-heading-link-color;
+        text-decoration: none;
+      }
+
+      a:hover, a:focus {
+        color: $article-heading-link-hover-color;
+        background: none;
+      }
+    }
+
+    h1 {
+      font-size: $article-font-size * 2.0;
+      line-height: $article-line-height * 1.75;
+    }
+
+    h2 { font-size: $article-font-size }
+  }
 }
 
 .container {
