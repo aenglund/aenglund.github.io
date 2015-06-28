@@ -5,14 +5,18 @@ layout: default
   {% for post in paginator.posts %}
     {% include post.html %}
   {% endfor %}
+
+  {% if paginator.total_pages > 1 %}
+    <nav>
+      <div class="container">
+        {% if paginator.previous_page %}
+          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Newer posts</a>
+        {% endif %}
+
+        {% if paginator.next_page %}
+          <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older posts &raquo;</a>
+        {% endif %}
+      </div>
+    </nav>
+  {% endif %}
 </section>
-
-{% if paginator.total_pages > 1 %}
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Newer posts</a>
-  {% endif %}
-
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older posts &raquo;</a>
-  {% endif %}
-{% endif %}
