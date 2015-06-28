@@ -1,0 +1,7 @@
+// ---
+// Mixins
+// ---
+
+@mixin font-smoothing($type) {
+  -webkit-font-smoothing: $type;
+}
