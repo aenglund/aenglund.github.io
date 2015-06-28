@@ -5,6 +5,7 @@
 // Colors
 $white:                                       #ffffff;
 $gray-base:                                   #262626;
+$gray-lighter:                                #efefef;
 
 $brand-green:                                 #44a340;
 
@@ -30,4 +31,6 @@ $article-font-size:                           21px;
 $article-line-height:                         32px;
 $article-heading-link-color:                  $font-color-base;
 $article-heading-link-hover-color:            $link-color;
+$article-separator-width:                     1px;
+$article-separator-color:                     $gray-lighter;
 

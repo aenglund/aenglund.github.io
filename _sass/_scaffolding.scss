@@ -37,6 +37,12 @@ article {
   font-size: $article-font-size;
   line-height: $article-line-height;
 
+  .article-content-wrapper {
+    border-bottom: $article-separator-width solid $article-separator-color;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+  }
+
   header {
     text-align: center;
 

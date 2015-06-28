@@ -1,9 +1,13 @@
 <article>
   <div class="container">
-    <header>
-      <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-      <h2>Posted {{ post.date | date: "%b %-d, %Y" }}</h2>
-    </header>
-    {{ post.content }}
+    <div class="article-content-wrapper">
+      <header>
+        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+        <h2>Posted {{ post.date | date: "%b %-d, %Y" }}</h2>
+      </header>
+      {{ post.content }}
+      <footer>
+      </footer>
+    </div>
   </div>
 </article>
