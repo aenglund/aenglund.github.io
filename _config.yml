@@ -4,7 +4,7 @@ username: aenglund
 email: mail@albinenglund.com
 description: "I am an iOS-developer employeed at Tactel in Malmö, Sweden. Graduated with a Bachelor of Science in Computer Software Engineering from Linköping University in 2013."
 baseurl: ""
-url: "http://albinenglund.com"
+url: "http://aenglund.github.io"
 paginate: 5
 paginate_path: ":num"
 
