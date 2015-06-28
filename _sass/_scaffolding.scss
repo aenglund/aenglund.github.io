@@ -1,0 +1,23 @@
+// ---
+// Scaffolding
+// ---
+
+body {
+  background-color: $body-background;
+  border-top: 6px solid $brand-green;
+}
+
+main {
+  display: block;
+}
+
+section {
+  background-color: $white;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+  max-width: $content-max-width;
+}
+
