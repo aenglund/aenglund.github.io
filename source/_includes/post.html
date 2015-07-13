@@ -2,10 +2,16 @@
   <div class="container">
     <div class="article-content-wrapper">
       <header>
-        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-        <h2>Posted {{ post.date | date: "%b %-d, %Y" }}</h2>
+        {% if index %}
+          <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+        {% else %}
+          <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+        {% endif %}
+        {% capture date %}{{ page.date }}{{ post.date }}{% endcapture %}
+        {% capture date_formatted %}{{ date | date: '%b %-d, %Y' }}{% endcapture %}
+        <h2>Posted {{ date_formatted }}</h2>
       </header>
-      {{ post.content }}
+      {{ content }}
       <footer>
       </footer>
     </div>
