@@ -1,5 +1,6 @@
 title: Albin Englund (aenglund)
 name: Albin Englund
+author: Albin Englund
 username: aenglund
 email: mail@albinenglund.com
 description: "I am an iOS-developer employeed at Tactel in Malmö, Sweden. Graduated with a Bachelor of Science in Computer Software Engineering from Linköping University in 2013."
@@ -7,6 +8,9 @@ baseurl: ""
 url: "http://aenglund.github.io"
 paginate: 5
 paginate_path: "/page/:num/"
+
+source: source
+destination: public
 
 # Social
 rss: "/feed.xml"

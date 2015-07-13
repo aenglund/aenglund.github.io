@@ -67,6 +67,30 @@ article {
   }
 }
 
+footer.site-footer {
+  border-top: 4px solid $brand-green;
+  padding: 25px 0 25px 0;
+  font-size: $footer-font-size;
+  line-height: $footer-line-height;
+  color: $footer-text-color;
+
+  @extend %clearfix;
+
+  h1 {
+    font-size: $footer-title-font-size;
+  }
+
+  #profile-picture {
+    float: left;
+    width: 145px;
+  }
+
+  #biography {
+    width: auto;
+    overflow: hidden;
+  }
+}
+
 .container {
   margin: 0 auto;
   padding: 0 15px 0 15px;
