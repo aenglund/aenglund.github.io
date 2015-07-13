@@ -8,6 +8,7 @@ baseurl: ""
 url: "http://aenglund.github.io"
 paginate: 5
 paginate_path: "/page/:num/"
+permalink: "/:year/:month/:day/:title.html"
 
 source: source
 destination: public
