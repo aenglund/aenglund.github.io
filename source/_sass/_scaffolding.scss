@@ -10,6 +10,10 @@ body {
   color: $font-color-base;
   text-rendering: optimizeLegibility;
   @include font-smoothing(antialiased);
+
+  ::selection {
+    background: $body-selection-background-color;
+  }
 }
 
 main {

@@ -8,6 +8,7 @@ $gray-base:                                   #262626;
 $gray-lighter:                                #efefef;
 
 $brand-green:                                 #44a340;
+$brand-green-lightest:                        #dbf0db;
 
 // Typography
 $font-family-sans-serif:                      "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -24,6 +25,7 @@ $link-transition-curve:                       ease-out;
 
 // Scaffolding
 $body-background:                             $gray-base;
+$body-selection-background-color:             $brand-green-lightest;
 
 $content-max-width:                           820px;
 

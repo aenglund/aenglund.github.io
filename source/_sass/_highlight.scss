@@ -10,6 +10,12 @@ pre {
   color: $code-default-color;
   overflow-x: auto;
   line-height: $code-line-height;
+  @include border-radius(6px);
+
+  ::selection {
+    background: #657B83;
+    color: $code-default-color;
+  }
 
   code {
     font-family: $code-font-family;
@@ -35,7 +41,6 @@ pre {
  * green     #859900  operators, other keywords
  * */
  
-.highlight { background-color: #002b36; color: #93a1a1 }
 .highlight .c { color: #586e75 } /* Comment */
 .highlight .err { color: #93a1a1 } /* Error */
 .highlight .g { color: #93a1a1 } /* Generic */
