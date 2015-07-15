@@ -13,6 +13,14 @@
       </header>
       {{ content }}
       <footer>
+        {% if post.categories != empty %}
+          <ul class="article-categories">
+          {% for category_key in post.categories %}
+            {% assign category = site.data.categories[category_key] %}
+            <li class="article-category"><a href="{{ category.url }}">{{ category.name }}</a></li>
+          {% endfor %}
+          </ul>
+        {% endif %}
       </footer>
     </div>
   </div>
