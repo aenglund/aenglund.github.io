@@ -10,7 +10,7 @@ pre {
   color: $code-default-color;
   overflow-x: auto;
   line-height: $code-line-height;
-  @include border-radius(6px);
+  @include border-radius(4px);
 
   ::selection {
     background: #657B83;
