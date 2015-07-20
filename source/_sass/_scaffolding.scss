@@ -108,6 +108,12 @@ footer.site-footer {
   #profile-picture {
     float: left;
     width: 145px;
+
+    img {
+      @include border-radius(50%);
+      border: 2px solid $white;
+      width: 125px;
+    }
   }
 
   #biography {
