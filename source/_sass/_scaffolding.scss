@@ -124,6 +124,19 @@ footer.site-footer {
   #biography {
     width: auto;
     overflow: hidden;
+
+    #biography-description {
+      padding: 0 0 1em 0;
+    }
+
+    #social-media-links ul li {
+      display: inline;
+      margin: 0 8px 0 0;
+
+      a {
+        color: $white;
+      }
+    }
   }
 }
 
