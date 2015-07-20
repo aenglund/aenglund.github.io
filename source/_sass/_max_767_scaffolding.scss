@@ -1,0 +1,17 @@
+// ---
+// Scaffolding: Max width 767 px
+// ---
+
+@media screen and (max-width: 767px) {
+
+  footer.site-footer {
+    text-align: center;
+
+    #profile-picture {
+      margin: 0 auto;
+      float: none;
+    }
+  }
+
+}
+
