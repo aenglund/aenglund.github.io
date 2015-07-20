@@ -9,4 +9,8 @@
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+  {% for category_hash in site.data.categories %}
+  {% assign category = category_hash[1] %}
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }} - {{ category.name }}" href="{{ category.feed | prepend: site.baseurl | prepend: site.url }}" />
+  {% endfor %}
 </head>

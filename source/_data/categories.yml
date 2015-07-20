@@ -1,8 +1,10 @@
 cocoa:
   name: Cocoa
   url: /category/cocoa/
+  feed: /category/cocoa/feed.xml
 
 software-development:
   name: "Software Development"
   url: /category/software-development/
+  feed: /category/software-development/feed.xml
 
