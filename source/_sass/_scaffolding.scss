@@ -29,6 +29,7 @@ section {
     text-decoration: underline;
     @include transition(all $link-transition-duration $link-transition-curve);
   }
+
   a:hover, a:focus {
     color: $link-hover-color;
     background: $link-hover-background-color;
@@ -89,6 +90,19 @@ article {
         }
       }
     }
+  }
+}
+
+nav#paginator {
+  font-size: $paginator-font-size;
+  @extend %clearfix;
+
+  .newer-posts {
+    float: left;
+  }
+
+  .older-posts {
+    float: right;
   }
 }
 
