@@ -18,4 +18,5 @@
   {% assign category = category_hash[1] %}
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }} - {{ category.name }}" href="{{ category.feed | prepend: site.baseurl | prepend: site.url }}" />
   {% endfor %}
+  {% include google-analytics.html %}
 </head>

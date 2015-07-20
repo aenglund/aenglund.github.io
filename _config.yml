@@ -13,6 +13,9 @@ permalink: "/:year/:month/:day/:title.html"
 source: source
 destination: public
 
+# Google Analytics
+google_analytics_tracking_id: "UA-65345262-1"
+
 # Social
 rss: "/feed.xml"
 github: "http://github.com/aenglund"
