@@ -113,6 +113,11 @@ footer.site-footer {
       @include border-radius(50%);
       border: 2px solid $white;
       width: 125px;
+      @include transition(all 0.25s ease);
+    }
+
+    img:hover {
+      @include transform(rotate(-5deg) scale(1.1) translate(-3px, -3px));
     }
   }
 
