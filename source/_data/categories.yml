@@ -3,8 +3,13 @@ cocoa:
   url: /category/cocoa/
   feed: /category/cocoa/feed.xml
 
+curiosity:
+  name: curiosity
+  url: /category/curiosity/
+  feed: /category/curiosity/feed.xml
+
 personal:
-  name: Personal
+  name: personal
   url: /category/personal/
   feed: /category/personal/feed.xml
 
