@@ -3,6 +3,11 @@ cocoa:
   url: /category/cocoa/
   feed: /category/cocoa/feed.xml
 
+personal:
+  name: Personal
+  url: /category/personal/
+  feed: /category/personal/feed.xml
+
 software-development:
   name: "Software Development"
   url: /category/software-development/
