@@ -4,12 +4,12 @@ cocoa:
   feed: /category/cocoa/feed.xml
 
 curiosity:
-  name: curiosity
+  name: Curiosity
   url: /category/curiosity/
   feed: /category/curiosity/feed.xml
 
 personal:
-  name: personal
+  name: Personal
   url: /category/personal/
   feed: /category/personal/feed.xml
 
