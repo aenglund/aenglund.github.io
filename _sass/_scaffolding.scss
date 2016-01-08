@@ -52,6 +52,10 @@ article {
     width: 100%;
   }
 
+  ul {
+    margin: 0 0 0 1em;
+  }
+
   header {
     text-align: center;
 
@@ -78,6 +82,7 @@ article {
   footer {
     ul {
       list-style-type: none;
+      margin: 0;
 
       li {
         display: inline;
