@@ -24,7 +24,7 @@ facebook: "http://facebook.com/albin.englund.14"
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
 # File exclusion
 exclude: ['Gemfile.lock', 'Gemfile']
