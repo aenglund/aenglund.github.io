@@ -1,3 +1,8 @@
+agile:
+  name: Agile
+  url: /category/agile/
+  feed: /category/agile/feed.xml
+
 cocoa:
   name: Cocoa
   url: /category/cocoa/
@@ -12,6 +17,11 @@ personal:
   name: Personal
   url: /category/personal/
   feed: /category/personal/feed.xml
+
+scrum:
+  name: Scrum
+  url: /category/scrum/
+  feed: /category/scrum/feed.xml
 
 software-development:
   name: "Software Development"
