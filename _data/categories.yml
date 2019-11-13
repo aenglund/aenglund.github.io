@@ -13,6 +13,11 @@ curiosity:
   url: /category/curiosity/
   feed: /category/curiosity/feed.xml
 
+leadership:
+  name: Leadership
+  url: /category/leadership/
+  feed: /category/leadership/feed.xml
+
 personal:
   name: Personal
   url: /category/personal/
