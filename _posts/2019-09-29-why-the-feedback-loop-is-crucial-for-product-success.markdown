@@ -2,7 +2,7 @@
 layout: post
 title:  "Why the feedback-loop is crucial for product success"
 date:   2019-09-29 10:15:09
-categories: agile scrum
+categories: agile scrum product-development
 ---
 
 All development and changes to a product comes associated with risk. The risk of building the wrong thing, the risk of building features that does not speak to the users, the risk of introducing bugs. The list goes on and on!

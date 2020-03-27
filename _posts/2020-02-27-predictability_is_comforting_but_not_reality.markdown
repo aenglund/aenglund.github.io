@@ -2,7 +2,7 @@
 layout: post
 title:  "Predictability is comforting but not a reality"
 date:   2020-03-17 07:15:09
-categories: agile scrum
+categories: agile scrum product-development
 ---
 
 Back in the days when everyone was doing big waterfall projects, both in software and other fields, we used to have an "Analyze"-phase. Today we do barley dare to call a project waterfall (because no one want to be associated with something so out-of-fashion as waterfall-projects).

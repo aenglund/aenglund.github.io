@@ -33,3 +33,8 @@ software-development:
   url: /category/software-development/
   feed: /category/software-development/feed.xml
 
+product-development:
+  name: "Product Development"
+  url: /category/product-development/
+  feed: /category/product-development/feed.xml
+
