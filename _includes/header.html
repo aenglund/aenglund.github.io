@@ -1,4 +1,19 @@
 <header class="site-header">
   <div class="wrapper">
+    <div class="container">
+      <div id="logotype">
+        <h1>{{ site.title }}</h1>
+        <a href="{{ "/" | prepend: site.baseurl }}">
+          <img src="{{ "/assets/img/logo.png" | prepend: site.baseurl }}" alt="logo" />
+        </a>
+      </div>
+      <div class="social-media-links">
+        <ul>
+          <li><a href="{{ site.rss }}"><i class="fa fa-rss"></i></a></li>
+          <li><a href="{{ site.github }}"><i class="fa fa-github"></i></a></li>
+          <li><a href="{{ site.linkedin }}"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+      </div>
+    </div>
   </div>
 </header>

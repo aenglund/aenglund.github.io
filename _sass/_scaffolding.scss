@@ -4,7 +4,6 @@
 
 body {
   background: $body-background;
-  border-top: 6px solid $brand-green;
 
   font-family: $font-family-base;
   color: $font-color-base;
@@ -17,7 +16,47 @@ body {
 }
 
 main {
+  border-top: 6px solid $brand-green;
   display: block;
+}
+
+header.site-header {
+  $logotype-width: 191;
+  $logotype-height: 37px;
+
+  #logotype {
+    float: left;
+
+    img {
+      width: $logotype-width;
+      height: $logotype-height;
+    }
+
+    h1 {
+      visibility: hidden;
+      width: 0;
+      height: 0;
+    }
+  }
+
+  .social-media-links {
+    height: $logotype-height;
+    float: right;
+
+    ul {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+
+      li {
+        margin: 0 2px 0 10px;
+      }
+    }
+  }
+  .wrapper {
+    padding: 15px 0;
+    @extend %clearfix;
+  }
 }
 
 section {
@@ -151,23 +190,26 @@ footer.site-footer {
     #biography-description {
       padding: 0 0 1em 0;
     }
+  }
 
-    #social-media-links ul li {
-      display: inline;
-      margin: 0 10px 0 2px;
+  .social-media-links ul li {
+    margin: 0 10px 0 2px;
+  }
+}
 
-      a {
-        color: $footer-social-media-links-color;
+.social-media-links ul li {
+  display: inline;
 
-        i {
-          @include transition(all 0.25s ease);
-        }
-      }
+  a {
+    color: $footer-social-media-links-color;
 
-      a i:hover {
-        @include transform(scale(1.15) translate(-1px, -1px));
-      }
+    i {
+      @include transition(all 0.25s ease);
     }
+  }
+
+  a i:hover {
+    @include transform(scale(1.15) translate(-1px, -1px));
   }
 }
 

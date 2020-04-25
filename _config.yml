@@ -18,9 +18,7 @@ google_analytics_tracking_id: "UA-65345262-1"
 # Social
 rss: "/feed.xml"
 github: "http://github.com/aenglund"
-twitter: "http://twitter.com/albinenglund"
 linkedin: "http://se.linkedin.com/pub/albin-englund/48/483/b40"
-facebook: "http://facebook.com/albin.englund.14"
 
 # Build settings
 markdown: kramdown
