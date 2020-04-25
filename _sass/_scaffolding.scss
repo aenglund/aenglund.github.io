@@ -21,7 +21,7 @@ main {
 }
 
 header.site-header {
-  $logotype-width: 191;
+  $logotype-width: 191px;
   $logotype-height: 37px;
 
   #logotype {
@@ -33,9 +33,7 @@ header.site-header {
     }
 
     h1 {
-      visibility: hidden;
-      width: 0;
-      height: 0;
+      display: none;
     }
   }
 
@@ -49,7 +47,7 @@ header.site-header {
       transform: translateY(-50%);
 
       li {
-        margin: 0 2px 0 10px;
+        margin: 7px 2px 0 10px;
       }
     }
   }
@@ -199,7 +197,7 @@ footer.site-footer {
 }
 
 .social-media-links ul li {
-  display: inline;
+  display: inline-block;
 
   a {
     color: $footer-social-media-links-color;
