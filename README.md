@@ -21,5 +21,5 @@ bundle update
 To run the development server, run the following:
 
 ```
-bundle exec jekyll serve
+bundle exec jekyll serve --host 0.0.0.0
 ```
