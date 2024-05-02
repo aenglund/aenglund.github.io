@@ -5,7 +5,7 @@
 To install all the dependencies needed by the blog, run the following inside of the project directory:
 
 ```
-gem install
+gem install -g Gemfile
 ```
 
 ### Update dependencies
