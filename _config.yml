@@ -12,8 +12,8 @@ permalink: "/:year/:month/:day/:title.html"
 
 destination: public
 
-# Google Analytics
-google_analytics_tracking_id: "UA-65345262-1"
+# Posthog
+posthog_project_id: "phc_DbutfoPyvQlrxCqShlxzv6a2grKz9yD16LuoAsJxAt1"
 
 # Social
 rss: "/feed.xml"
