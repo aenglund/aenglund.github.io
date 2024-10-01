@@ -1,0 +1,30 @@
+<article>
+  <div class="container">
+    <div class="article-content-wrapper">
+      <header>
+        {% if index %}
+          <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+        {% else %}
+          <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+        {% endif %}
+        {% capture date %}{{ page.date }}{{ post.date }}{% endcapture %}
+        {% capture date_formatted %}{{ date | date: '%b %-d, %Y' }}{% endcapture %}
+        <h2>Posted {{ date_formatted }}</h2>
+      </header>
+      {{ content }}
+      {% if post.url != empty %}
+        <p><a href="{{ post.url }}">Read full article</a></p>
+      {% endif %}
+      <footer>
+        {% if post.categories != empty %}
+          <ul class="article-categories">
+          {% for category_key in post.categories %}
+            {% assign category = site.data.categories[category_key] %}
+            <li class="article-category"><a href="{{ category.url }}">{{ category.name }}</a></li>
+          {% endfor %}
+          </ul>
+        {% endif %}
+      </footer>
+    </div>
+  </div>
+</article>

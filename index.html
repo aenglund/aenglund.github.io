@@ -4,8 +4,8 @@ layout: default
 <section>
   {% assign index = true %}
   {% for post in paginator.posts %}
-    {% assign content = post.content %}
-    {% include post.html %}
+    {% assign content = post.excerpt %}
+    {% include post_teaser.html %}
   {% endfor %}
 
   {% if paginator.total_pages > 1 %}
