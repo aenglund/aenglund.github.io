@@ -4,7 +4,14 @@ layout: default
 <section>
   {% assign index = true %}
   {% for post in site.categories[page.category] %}
+    {% assign normalized_excerpt = post.excerpt | strip_html | strip_newlines | strip %}
+    {% assign normalized_content = post.content | strip_html | strip_newlines | strip %}
+
     {% assign content = post.excerpt %}
-    {% include post_teaser.html %}
+    {% if normalized_excerpt == normalized_content %}
+      {% include post.html %}
+    {% else %}
+      {% include post_teaser.html %}
+    {% endif %}
   {% endfor %}
 </section>
