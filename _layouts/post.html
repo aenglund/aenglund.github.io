@@ -1,6 +1,22 @@
 ---
 layout: default
 ---
-<section>
-  {% include post.html %}
-</section>
+<article class="post">
+  <a href="{{ '/writing/' | relative_url }}" class="post__back">← All writing</a>
+
+  <header class="post__header">
+    {% if page.kicker %}<p class="post__kicker">{{ page.kicker }}</p>{% endif %}
+    <h1 class="post__title">{{ page.title }}</h1>
+    <p class="post__byline">
+      {{ site.author.name }}
+      · <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+      {% if page.reading_time %}· {{ page.reading_time }} min read{% endif %}
+    </p>
+  </header>
+
+  <hr class="post__divider">
+
+  <div class="post__body">
+    {{ content }}
+  </div>
+</article>

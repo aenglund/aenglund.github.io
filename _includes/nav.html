@@ -1,0 +1,7 @@
+<nav class="site-nav">
+  <a href="{{ '/' | relative_url }}" class="site-nav__name{% if page.url == '/' %} site-nav__link--active{% endif %}">{{ site.author.name }}</a>
+  <div class="site-nav__links">
+    <a href="{{ '/' | relative_url }}" class="site-nav__link{% if page.url == '/' %} site-nav__link--active{% endif %}">Home</a>
+    <a href="{{ '/writing/' | relative_url }}" class="site-nav__link{% if page.url contains '/writing' %} site-nav__link--active{% endif %}">Writing</a>
+  </div>
+</nav>

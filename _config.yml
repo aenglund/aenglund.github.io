@@ -1,8 +1,4 @@
 title: Albin Englund (aenglund)
-name: Albin Englund
-author: Albin Englund
-username: aenglund
-email: mail@albinenglund.com
 description: "Hi! I'm Albin. I am passionate about building digital products that people love."
 baseurl: ""
 url: "http://blog.albinenglund.com"
@@ -10,17 +6,21 @@ paginate: 5
 paginate_path: "/page/:num/"
 permalink: "/:year/:month/:day/:title.html"
 
-destination: public
+# Author
+author:
+  name: Albin Englund
+  username: aenglund
+  linkedin: ""
+  email: mail@albinenglund.com
+  github: "http://github.com/aenglund"
+  linkedin: "http://se.linkedin.com/pub/albin-englund/48/483/b40"
+  rss: "/feed.xml"
 
 # Posthog
 posthog_project_id: "phc_DbutfoPyvQlrxCqShlxzv6a2grKz9yD16LuoAsJxAt1"
 
-# Social
-rss: "/feed.xml"
-github: "http://github.com/aenglund"
-linkedin: "http://se.linkedin.com/pub/albin-englund/48/483/b40"
-
 # Build settings
+destination: public
 markdown: kramdown
 highlighter: rouge
 

@@ -1,0 +1,20 @@
+---
+layout: default
+title: Writing
+permalink: /writing/
+---
+<div class="writing-header">
+  <h1 class="writing-header__title">Writing</h1>
+</div>
+
+<ul class="post-list">
+  {% for post in site.posts %}
+  <li class="post-list__item">
+    <div class="post-list__row">
+      <a href="{{ post.url | relative_url }}" class="post-list__title">{{ post.title }}</a>
+      <span class="post-list__date">{{ post.date | date: "%b %Y" }}</span>
+    </div>
+    {% if post.description %}<p class="post-list__description">{{ post.description }}</p>{% endif %}
+  </li>
+  {% endfor %}
+</ul>

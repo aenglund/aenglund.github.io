@@ -1,24 +1,8 @@
 <footer class="site-footer">
-  <div class="wrapper">
-    <div class="container">
-      <div id="profile-picture">
-        <img alt="Profile picture" src="https://gravatar.com/avatar/3077621ea0004a1b15e74e778cb2c5e942eb943bf4f4b042da810c363d8a221e?size=256" />
-      </div>
-      <div id="biography">
-        <div id="biography-name">
-          <h1>{{ site.name }}</h1>
-        </div>
-        <div id="biography-description">
-          <p>{{ site.description }}</p>
-        </div>
-        <div class="social-media-links">
-          <ul>
-            <li><a href="{{ site.rss }}"><i class="fa fa-rss"></i></a></li>
-            <li><a href="{{ site.github }}"><i class="fa fa-github"></i></a></li>
-            <li><a href="{{ site.linkedin }}"><i class="fa fa-linkedin"></i></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
+  <span class="site-footer__name">{{ site.author.name }}</span>
+  <div class="site-footer__links">
+    {% if site.author.linkedin != "" %}<a href="{{ site.author.linkedin }}" class="site-footer__link">LinkedIn</a>{% endif %}
+    {% if site.author.github != "" %}<a href="{{ site.author.github }}" class="site-footer__link">Github</a>{% endif %}
+    {% if site.author.rss != "" %}<a href="{{ site.author.rss }}" class="site-footer__link">RSS</a>{% endif %}
   </div>
 </footer>
