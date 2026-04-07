@@ -2,7 +2,7 @@
   <span class="site-footer__name">{{ site.author.name }}</span>
   <div class="site-footer__links">
     {% if site.author.linkedin != "" %}<a href="{{ site.author.linkedin }}" class="site-footer__link">LinkedIn</a>{% endif %}
-    {% if site.author.github != "" %}<a href="{{ site.author.github }}" class="site-footer__link">Github</a>{% endif %}
-    {% if site.author.rss != "" %}<a href="{{ site.author.rss }}" class="site-footer__link">RSS</a>{% endif %}
+    {% if site.author.github != "" %}<span class="site-footer__sep">&middot;</span><a href="{{ site.author.github }}" class="site-footer__link">GitHub</a>{% endif %}
+    {% if site.author.rss != "" %}<span class="site-footer__sep">&middot;</span><a href="{{ site.author.rss }}" class="site-footer__link">RSS</a>{% endif %}
   </div>
 </footer>
