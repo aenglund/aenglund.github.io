@@ -1,8 +1,8 @@
 services:
   jekyll:
-    image: jekyll/jekyll:4.2.2
+    build: .
     platform: linux/amd64
-    command: jekyll serve --watch --force_polling --host 0.0.0.0
+    command: bundle exec jekyll serve --watch --force_polling --host 0.0.0.0
     ports:
       - "4000:4000"
     volumes:

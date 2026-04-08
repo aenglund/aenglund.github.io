@@ -2,18 +2,18 @@
 
 ### Install
 
-To install all the dependencies needed by the blog, run the following inside of the project directory:
+Docker is required. To build the image, run the following:
 
 ```
-gem install -g Gemfile
+docker compose build
 ```
 
 ### Update dependencies
 
-To update the environment to be similar to what is used at Github, run the following:
+To update dependencies, edit the `Gemfile` and rebuild the image:
 
 ```
-bundle update
+docker compose build
 ```
 
 ### Run development server
@@ -21,5 +21,7 @@ bundle update
 To run the development server, run the following:
 
 ```
-bundle exec jekyll serve --host 0.0.0.0
+docker compose up
 ```
+
+The site is served at `http://localhost:4000`.
