@@ -24,6 +24,10 @@ destination: public
 markdown: kramdown
 highlighter: rouge
 
+# Plugins
+plugins:
+  - jekyll-redirect-from
+
 # File exclusion
 exclude: ['Gemfile.lock', 'Gemfile']
 

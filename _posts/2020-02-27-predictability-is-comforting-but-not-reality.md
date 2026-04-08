@@ -4,6 +4,8 @@ date: 2020-03-17
 kicker: "Product"
 description: "Why detailed upfront planning fails in software development and what to do instead."
 reading_time: 3
+redirect_from:
+  - /2020/03/17/predictability_is_comforting_but_not_reality.html
 ---
 
 Back in the days when everyone was doing big waterfall projects, both in software and other fields, we used to have an "Analyze"-phase. Today we do barley dare to call a project waterfall (because no one want to be associated with something so out-of-fashion as waterfall-projects).

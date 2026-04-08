@@ -4,6 +4,8 @@ date: 2019-01-16
 kicker: "Product"
 description: "What does a potentially releasable product increment really mean in Scrum?"
 reading_time: 2
+redirect_from:
+  - /2019/01/16/potentially_releasable_product.html
 ---
 
 What is a "potentially releasable product increment", really? Last year I worked as Scrum Master in a team that delivered software for multiple target platforms. One of the products was a mobile application. The mobile application was target for multiple markets and regions and needed multi-lingual support. One of the features in the application was to switch between different languages inside of the application (the app runs on a device available to a range of people with possibly different primary native language).

@@ -4,6 +4,8 @@ date: 2020-05-11
 kicker: "Product"
 description: "Why forcing more backlog items into sprints destroys productivity and what to do instead."
 reading_time: 5
+redirect_from:
+  - /2020/05/11/is_the_team_productive.html
 ---
 
 *"The team should be able to deliver more than this by now... Why aren't they more productive? Let's add more backlog items to the sprint backlog to make sure everyone is working with something and is kept busy!"*

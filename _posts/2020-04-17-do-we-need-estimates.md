@@ -4,6 +4,8 @@ date: 2020-04-17
 kicker: "Product"
 description: "Two good reasons why estimates are valuable even when they can't predict delivery dates."
 reading_time: 4
+redirect_from:
+  - /2020/04/17/do_we_need_estimates.html
 ---
 
 *If planning won't bring predictability, or an accurate answer to the question "When will it be Done?" in a software project... I guess there's no need to create estimates either, right?*

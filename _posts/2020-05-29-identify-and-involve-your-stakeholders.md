@@ -4,6 +4,8 @@ date: 2020-05-29
 kicker: "Product"
 description: "Why early stakeholder feedback is crucial and how to identify who your stakeholders are."
 reading_time: 3
+redirect_from:
+  - /2020/05/29/identify_and_involve_your_stakeholders.html
 ---
 
 Some product owners, managers and organizations have a believe that for it to be okay to show someone the product being developed it has to be polished, shiny and with all the expected features in place. Every occasion where the product is presented is a risk of being criticized, and if the product is in an early stage of development, they are not yet ready for critique.
